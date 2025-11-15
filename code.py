@@ -3,10 +3,9 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import cross_val_score
 
+# 訓練データとテストデータの読み込み
 train = pd.read_csv(r"c:\Users\EGC\kaggle\titanic\train.csv")
 test = pd.read_csv(r"c:\Users\EGC\kaggle\titanic\test.csv")
-
-# print(train.head())
 
 test_shape = test.shape
 train_shape = train.shape

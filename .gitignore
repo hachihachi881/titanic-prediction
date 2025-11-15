@@ -1,4 +1,4 @@
-# Python
+# Python関連
 __pycache__/
 *.py[cod]
 *$py.class
@@ -27,17 +27,17 @@ wheels/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# IDE
+# 統合開発環境
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# OS
+# オペレーティングシステム
 .DS_Store
 Thumbs.db
 
-# Data files (optional - コメントアウトして含めることも可能)
+# データファイル（オプション - コメントアウトして含めることも可能）
 # *.csv
 # *.xlsx
